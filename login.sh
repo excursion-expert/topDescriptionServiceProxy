@@ -1,1 +1,1 @@
-ssh -i /Users/christopherhancock/Desktop/HRSEA13/taDescriptionService/topDescriptionService/carousel_proxy.pem ubuntu@ec2-3-19-53-84.us-east-2.compute.amazonaws.com
+ssh -i /Users/christopherhancock/Desktop/HRSEA13/topDescriptionServiceProxy/carousel_proxy.pem ubuntu@ec2-3-19-53-84.us-east-2.compute.amazonaws.com
