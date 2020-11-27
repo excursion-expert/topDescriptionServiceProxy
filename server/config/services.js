@@ -53,12 +53,12 @@ module.exports = {
   },
   service3: {
     api: '/listings/:listings_id/reviews/*',
-    url: 'http://18.219.118.49:3003/1/',
+    url: 'http://18.219.118.49:3003',
     bundle: 'bundle.js',
   },
   service4: {
     api: '/listings/:listings_id/questions/*',
-    url: 'http://18.237.144.53:3004/',
+    url: 'http://18.237.144.53:3004',
     bundle: 'bundle.js',
   }
 };
