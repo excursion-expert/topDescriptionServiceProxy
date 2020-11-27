@@ -4,8 +4,9 @@
 
 const server = require('./server.js');
 
-const PORT = 3000 || process.env.PORT;
+const PORT = 3011 || process.env.PORT;
 
 server.listen(PORT, () => {
+  // eslint-disable-next-line no-console
   console.log(`Server running on localhost:${PORT}`);
 });

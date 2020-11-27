@@ -60,5 +60,5 @@ module.exports = {
     api: '/listings/:listings_id/questions/*',
     url: 'http://18.237.144.53:3004',
     bundle: 'bundle.js',
-  }
+  },
 };
