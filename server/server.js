@@ -7,6 +7,7 @@ const PUBLIC_DIR = path.resolve(__dirname, '..', 'public');
 const app = express();
 
 app.use(morgan('dev'));
+
 app.use('/:listing_id', express.static(PUBLIC_DIR));
 
 // Handling asset requests for webpack bundles by passing off requests to the bundles router
