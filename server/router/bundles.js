@@ -7,7 +7,7 @@ const {
 const router = Router();
 
 router.use('/service1.js', createProxyMiddleware({
-  target: `${service1.url}/:listing_id`,
+  target: service1.url + '/:listing_id',
   pathRewrite: {
     '.*/bundles/service1.js': service1.bundle,
   },
@@ -15,7 +15,7 @@ router.use('/service1.js', createProxyMiddleware({
 }));
 
 router.use('/service2.js', createProxyMiddleware({
-  target: `${service2.url}/:listing_id`,
+  target: service2.url + '/:listing_id',
   pathRewrite: {
     '.*/bundles/service2.js': service2.bundle,
   },
@@ -23,7 +23,7 @@ router.use('/service2.js', createProxyMiddleware({
 }));
 
 router.use('/service3.js', createProxyMiddleware({
-  target: `${service3.url}/:listing_id`,
+  target: service3.url + '/:listing_id',
   pathRewrite: {
     '.*/bundles/service3.js': service3.bundle,
   },
@@ -31,7 +31,7 @@ router.use('/service3.js', createProxyMiddleware({
 }));
 
 router.use('/service4.js', createProxyMiddleware({
-  target: `${service4.url}/:listing_id`,
+  target: service4.url + '/:listing_id',
   pathRewrite: {
     '.*/bundles/service4.js': service4.bundle,
   },
